@@ -2,3 +2,4 @@ airsim
 pandas
 scipy
 numpy
+pytest
