@@ -1,0 +1,4 @@
+airsim
+pandas
+scipy
+numpy
