@@ -9,4 +9,15 @@ This work came out of research conducted with Professor Shreyas Sundaram of Purd
 2. Create a multi-agent routing library to aid researchers in utilizing multiple UAVs.
 3. Provide open-source software that is an outgrowth for the SWARM simulator (currently in development).
 
+## How to Use
+
+Currently, `main.py` contains the execution script for allowing two drones to execute a lead-follow manuever. To utilize this behavior:
+1. Set the start and stop coordinates in the `waypoints.json`.
+2. Set the number of waypoints that you want to generate in `main.py`. This will only generate a straight path for now.
+```
+route = Nav(file_name, numb_waypoints=50) # This is an example of what ya'll can do with it.
+```
+
+Run the script and use the breakpoint keys to control the simulation. Turns, orbits, etc. are in the works!
+
 Please email xxEoD2242 at tyler.fedrizzi@gmail.com if you have any specific questions or open a GitHub issue.
