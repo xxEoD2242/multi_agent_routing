@@ -3,3 +3,5 @@ pandas
 scipy
 numpy
 pytest
+pytest-mock
+flake8
